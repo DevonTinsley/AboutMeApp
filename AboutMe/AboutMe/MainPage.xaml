@@ -6,11 +6,15 @@
              mc:Ignorable="d"
              x:Class="AboutMe.MainPage">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="#B2B2B2">
         <!-- Place new controls here -->
-        <Label Text="Devon Tinsley" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+        <StackLayout>
+            <Label  HeightRequest="75" BackgroundColor="#D95038" Text="Home" TextColor="Black" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
+        </StackLayout>
+        <StackLayout >
+            <Image ></Image>
+
+        </StackLayout>
+    </StackLayout>
 </ContentPage>
