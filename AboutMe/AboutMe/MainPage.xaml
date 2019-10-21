@@ -13,7 +13,26 @@
 
         </StackLayout>
         <StackLayout >
-            <Image ></Image>
+
+            <Image Margin="0,50,0,0"  Source="https://img.icons8.com/wired/64/000000/computer.png" 
+                   HeightRequest="200" WidthRequest="200"></Image>
+
+            <Label  Text="Devon Tinsley" 
+                    TextColor="Black" FontSize="25" FontAttributes="Bold" 
+                    HorizontalTextAlignment="Center"/>
+            <Label BackgroundColor="Black" HeightRequest="1" Margin="15,0,15,0" > </Label>
+            <Frame  Margin="15,0,15,0" >
+                <StackLayout Orientation="Horizontal">
+                    
+                    <Label Text="Biography" TextColor="Black" FontSize="35" HorizontalTextAlignment="End">
+
+                    </Label>
+                    <Image Source="https://img.icons8.com/wired/64/000000/computer.png"></Image>
+                </StackLayout>
+                
+            </Frame>
+            <Label BackgroundColor="Black" HeightRequest="1" Margin="15,0,15,0" ></Label>
+            <Label BackgroundColor="Black" HeightRequest="1" Margin="15,0,15,0" ></Label>
 
         </StackLayout>
     </StackLayout>
