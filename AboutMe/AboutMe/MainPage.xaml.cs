@@ -18,17 +18,18 @@ namespace AboutMe
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new BiographyPage());
-        }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new SkillsPage());
         }
 
-        private void Button_Clicked_2(object sender, EventArgs e)
+        private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new BiographyPage());
+        }
+
+        private void TapGestureRecognizer_Tapped_2(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ContactPage());
         }
