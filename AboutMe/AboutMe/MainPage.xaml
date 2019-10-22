@@ -22,6 +22,7 @@
                     HorizontalTextAlignment="Center"/>
             <Label BackgroundColor="Black" HeightRequest="1" ></Label>
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+                <Button Text="Click me!" Clicked="Button_Clicked"/>
                 <Image Source="icon.png" HeightRequest="50" WidthRequest="50" Margin="0,0,10,0" HorizontalOptions="Center"/>
                 <Label Text="Biography" FontSize="45" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="End" HorizontalOptions="End"/>
 
@@ -29,6 +30,7 @@
             </StackLayout>
             <Label BackgroundColor="Black" HeightRequest="1" ></Label>
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+                <Button Text="Click me!" Clicked="Button_Clicked_1"/>
                 <Image Source="skill.png" HeightRequest="50" WidthRequest="50" Margin="0,0,10,0" HorizontalOptions="Center"/>
                 <Label Text="Skills" FontSize="45" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="End" HorizontalOptions="End"/>
 
@@ -36,9 +38,10 @@
             </StackLayout>
             <Label BackgroundColor="Black" HeightRequest="1" ></Label>
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+                <Button Text="Click me!" Clicked="Button_Clicked_2"/>
                 <Image Source="contact.png" HeightRequest="50" WidthRequest="50" Margin="0,0,10,0" HorizontalOptions="Center"/>
                 <Label Text="Contact" FontSize="45" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="End" HorizontalOptions="End"/>
-
+    
 
             </StackLayout>
 
