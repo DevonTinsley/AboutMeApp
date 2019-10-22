@@ -12,27 +12,22 @@
             <Label  HeightRequest="75" BackgroundColor="#D95038" Text="Home" TextColor="Black" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
         </StackLayout>
-        <StackLayout >
+        <StackLayout Padding="30" >
 
-            <Image Margin="0,50,0,0"  Source="https://img.icons8.com/wired/64/000000/computer.png" 
+            <Image Source="coding.png" 
                    HeightRequest="200" WidthRequest="200"></Image>
 
             <Label  Text="Devon Tinsley" 
                     TextColor="Black" FontSize="25" FontAttributes="Bold" 
                     HorizontalTextAlignment="Center"/>
-            <Label BackgroundColor="Black" HeightRequest="1" Margin="15,0,15,0" > </Label>
-            <Frame  Margin="15,0,15,0" >
-                <StackLayout Orientation="Horizontal">
-                    
-                    <Label Text="Biography" TextColor="Black" FontSize="35" HorizontalTextAlignment="End">
+            <Label BackgroundColor="Black" HeightRequest="1" ></Label>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+                <Image Source="icon.png" HeightRequest="50" WidthRequest="50" Margin="0,0,10,0" HorizontalOptions="Center"/>
+                <Label Text="Biography" FontSize="45" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="End" HorizontalOptions="End"/>
 
-                    </Label>
-                    <Image Source="https://img.icons8.com/wired/64/000000/computer.png"></Image>
-                </StackLayout>
-                
-            </Frame>
-            <Label BackgroundColor="Black" HeightRequest="1" Margin="15,0,15,0" ></Label>
-            <Label BackgroundColor="Black" HeightRequest="1" Margin="15,0,15,0" ></Label>
+
+            </StackLayout>
+
 
         </StackLayout>
     </StackLayout>
