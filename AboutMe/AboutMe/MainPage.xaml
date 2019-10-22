@@ -27,7 +27,20 @@
 
 
             </StackLayout>
+            <Label BackgroundColor="Black" HeightRequest="1" ></Label>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+                <Image Source="skill.png" HeightRequest="50" WidthRequest="50" Margin="0,0,10,0" HorizontalOptions="Center"/>
+                <Label Text="Skills" FontSize="45" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="End" HorizontalOptions="End"/>
 
+
+            </StackLayout>
+            <Label BackgroundColor="Black" HeightRequest="1" ></Label>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+                <Image Source="contact.png" HeightRequest="50" WidthRequest="50" Margin="0,0,10,0" HorizontalOptions="Center"/>
+                <Label Text="Contact" FontSize="45" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="End" HorizontalOptions="End"/>
+
+
+            </StackLayout>
 
         </StackLayout>
     </StackLayout>
