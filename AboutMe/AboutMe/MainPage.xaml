@@ -4,22 +4,25 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="AboutMe.MainPage">
+             x:Class="AboutMe.MainPage"
+             Title="Home"
+             
+             >
 
     <StackLayout BackgroundColor="#B2B2B2">
         <!-- Place new controls here -->
-        <StackLayout>
+        <!--<StackLayout>
             <Label  HeightRequest="75" BackgroundColor="#D95038" Text="Home" TextColor="Black" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
-        </StackLayout>
+        </StackLayout>-->
         <StackLayout Padding="30" >
 
             <Image Source="coding.png" 
                    HeightRequest="200" WidthRequest="200"></Image>
 
             <Label  Text="Devon Tinsley" 
-                    TextColor="Black" FontSize="35" FontAttributes="Bold" 
-                    HorizontalTextAlignment="Center"/>
+                    TextColor="Black" FontSize="50" FontAttributes="Bold" 
+                    HorizontalTextAlignment="Center" Margin="0,0,0,50"/>
             <Label BackgroundColor="Black" HeightRequest="1" ></Label>
             <Frame BackgroundColor="#B2B2B2" Padding="0" HasShadow="False">
                 <Frame.GestureRecognizers >
