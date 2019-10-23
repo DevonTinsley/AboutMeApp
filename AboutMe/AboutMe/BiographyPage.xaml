@@ -4,14 +4,15 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="AboutMe.BiographyPage">
+             x:Class="AboutMe.BiographyPage"
+             Title="About Me">
     <ContentPage.Content>
-        <StackLayout >
-            <Button Text="Click me!" Clicked="Button_Clicked"/>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"/>
-            
-        </StackLayout>
+        <ScrollView>
+            <StackLayout >
+                <Image Source="newme.png" Aspect="AspectFit" HeightRequest="250" Margin="20"></Image>
+                    
+            </StackLayout>
+        </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>
