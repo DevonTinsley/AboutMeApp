@@ -150,6 +150,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle">
+      <Version>3.1.1.1-beta</Version>
+    </PackageReference>
     <PackageReference Include="Xam.Plugins.Settings">
       <Version>4.1.0-beta</Version>
     </PackageReference>

@@ -5,24 +5,29 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="AboutMe.MainPage"
-             Title="Home"
+       
              
              >
+    <NavigationPage.TitleView >
+        <Label Text="Home" HorizontalTextAlignment="Center" FontSize="30" FontAttributes="Bold" TextColor="Black"/>
 
+
+
+    </NavigationPage.TitleView>
     <StackLayout BackgroundColor="#B2B2B2">
         <!-- Place new controls here -->
         <!--<StackLayout>
             <Label  HeightRequest="75" BackgroundColor="#D95038" Text="Home" TextColor="Black" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
         </StackLayout>-->
-        <StackLayout Padding="30" >
+        <StackLayout Padding="20" >
 
             <Image Source="coding.png" 
                    HeightRequest="200" WidthRequest="200"></Image>
 
             <Label  Text="Devon Tinsley" 
                     TextColor="Black" FontSize="50" FontAttributes="Bold" 
-                    HorizontalTextAlignment="Center" Margin="0,0,0,50"/>
+                    HorizontalTextAlignment="Center" Margin="0,0,0,25"/>
             <Label BackgroundColor="Black" HeightRequest="1" ></Label>
             <Frame BackgroundColor="#B2B2B2" Padding="0" HasShadow="False">
                 <Frame.GestureRecognizers >

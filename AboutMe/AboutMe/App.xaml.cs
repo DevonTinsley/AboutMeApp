@@ -10,7 +10,12 @@ namespace AboutMe
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainPage()) {
+                BarBackgroundColor = Color.FromHex("#D95038"), 
+                BarTextColor = Color.Black
+
+
+            };
             
         }
 
