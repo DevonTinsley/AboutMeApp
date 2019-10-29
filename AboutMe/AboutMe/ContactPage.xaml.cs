@@ -16,5 +16,36 @@ namespace AboutMe
         {
             InitializeComponent();
         }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            if (entryName.Text == "" || entryName.Text == null )
+            {
+                await DisplayAlert("Error","Please enter a name", "Ok" );
+                return;
+
+            }
+            if (entryEmail.Text == "" || entryEmail.Text == null)
+            {
+                await DisplayAlert("Error", "Please enter an email", "Ok");
+                return;
+
+            }
+            if (entrySubject.Text == "" || entrySubject.Text == null)
+            {
+                await DisplayAlert("Error", "Please enter a subject", "Ok");
+                return;
+
+            }
+            if (entryName.Text == "" || entryName.Text == null)
+            {
+                await DisplayAlert("Error", "Please enter a messsage", "Ok");
+                return;
+
+            }
+            await DisplayAlert("Thank you", "Sent!", "Ok");
+
+            Navigation.PopAsync();
+        }
     }
 }
