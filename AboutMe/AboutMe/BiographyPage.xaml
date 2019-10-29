@@ -7,15 +7,17 @@
              x:Class="AboutMe.BiographyPage"
              Title="About Me"
              xmlns:custom ="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
-             >
-   
+      >
     <ContentPage.Content>
         <ScrollView>
             
             <StackLayout BackgroundColor="#B2B2B2">
-                <custom:CircleImage Source="newme.png" HeightRequest="150" WidthRequest="150" Margin="20" ></custom:CircleImage>
-                <Label Text="Test!"></Label>
-                
+                <custom:CircleImage Source="newme.png" Aspect="AspectFit" HeightRequest="250" Margin="20" ></custom:CircleImage>
+
+                <Label Text="About Me!" FontSize="32" TextColor="Black" HorizontalOptions="Center"/>
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium nec est quis mattis. Ut elit velit, semper vitae mattis a, dignissim in augue. Sed vitae ligula gravida, viverra quam ut, luctus tellus. Suspendisse viverra nibh in tristique mattis." 
+                       TextColor="Black" FontSize="30" Margin="30"/>
+
             </StackLayout>
         </ScrollView>
         
